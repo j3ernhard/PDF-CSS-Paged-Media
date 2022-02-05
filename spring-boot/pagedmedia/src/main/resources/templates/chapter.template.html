@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8" />
+<head>
+</head>
+<body>
+    <div th:id="${chapter.bezirk}" class="chapter" th:fragment="chapter-fragment">
+        <h1 th:text="${chapter.title}"></h1>
+        <p th:text="'Im ' + ${chapter.bezirk} + '. Bezirk gibt es ' + ${#lists.size(chapter.ladestellen)} +' E-Ladestellen.'">
+        </p>
+        <table>
+            <tr>
+                <th>Objekt-ID</th>
+                <th>Adresse</th>
+                <th>Bezeichnung</th>
+                <th>Betreiber</th>
+                <th>EVSEID</th>
+            </tr>
+            <tr th:each="ladestelle : ${chapter.ladestellen}">
+                <td th:text="${ladestelle.objectId}"></td>
+                <td th:text="${ladestelle.address}"></td>
+                <td th:text="${ladestelle.designation}"></td>
+                <td th:text="${ladestelle.operatorName}"></td>
+                <td th:text="${ladestelle.evseId}"></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

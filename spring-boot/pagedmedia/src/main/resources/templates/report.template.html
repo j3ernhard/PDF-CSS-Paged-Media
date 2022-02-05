@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org" lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="${title}"></title>
+</head>
+<body>
+    <div id="cover">
+        <h1 th:text="${title}"></h1>
+        <p>Das ist ein Test Report Template.</p>
+    </div>
+    <div id="toc">
+        <h1>Inhaltsverzeichnis</h1>
+        <div>
+            <ul id="index">
+                <li th:each="idx : ${index}">
+                    <a th:href="'#'+${idx.target}"><span th:text="${idx.title}"></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="content" th:each="chapter : ${chapters}">
+    <div th:replace="chapter.template.html :: chapter-fragment" />
+    </div>
+</body>
+</body>
+</html>

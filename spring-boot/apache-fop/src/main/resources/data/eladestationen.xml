@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<stations>
+    <title>E-Ladestellen in Wien</title>
+
+    <station>
+        <id>332534</id>
+        <address>01., Freyung 5</address>
+        <designation>Wipark Garage Freyung</designation>
+        <city>Wien</city>
+        <evseid>AT*VIE*E3506</evseid>
+        <operatorname></operatorname>
+    </station>
+
+    <station>
+        <id>332535</id>
+        <address>01., Gonzagagasse 23</address>
+        <designation>Wipark Garage Palais Hansen</designation>
+        <city>Wien</city>
+        <evseid>AT*VIE*E3509</evseid>
+        <operatorname></operatorname>
+    </station>
+
+    <station>
+        <id>332536</id>
+        <address>01., Schmerlingplatz 1</address>
+        <designation>BOE Garage Parlamentsdirektion</designation>
+        <city>Wien</city>
+        <evseid>AT*VIE*E5023</evseid>
+        <operatorname></operatorname>
+    </station>
+
+</stations>
+
+ 
