@@ -2,17 +2,29 @@
 @page {
     size: 140mm 100mm;
     margin: 5mm;
+    padding: 0mm;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: burlywood;
+    background-color: coral;
+}
+
+body {
+    margin: 0mm;
+    padding: 0mm;
+}
+
+h1 {
+    margin: 0mm;
 }
 
 #ticket {
-    background-color: burlywood;
-    width: 140mm;
-    height: 100mm;
+    background-color: beige;
+    width: 120mm;
+    height: 80mm;
+    margin: 0mm;
+    padding: 5mm;
 }
 
 #ticket-qrcode {
-    width: 50mm;
-    height: 50mm;
+    width: 40mm;
+    height: 40mm;
 }
