@@ -8,7 +8,7 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>me.jungwirth.playground.springboot</groupId>
+	<groupId>me.jungwirth.playground.springboot.pdf</groupId>
 	<artifactId>pagedmedia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pagedmedia</name>

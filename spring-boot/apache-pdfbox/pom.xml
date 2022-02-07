@@ -8,10 +8,10 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>me.jungwirth.playground.springboot</groupId>
-	<artifactId>apache-fop</artifactId>
+	<groupId>me.jungwirth.playground.springboot.pdf</groupId>
+	<artifactId>apache-pdfbox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>apache-fop</name>
+	<name>apache-pdfbox</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
