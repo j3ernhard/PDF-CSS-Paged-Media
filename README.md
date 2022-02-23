@@ -1,5 +1,9 @@
 # PDF Erstellung mit HTML und CSS Paged Media 
 
+Beispielprojekt zum Artikel PDFs mit HTML und CSS automatisiert erstellen auf heise.de/developer:  
+https://www.heise.de/hintergrund/Auf-Knopfdruck-PDFs-in-Anwendungen-erstellen-mit-HTML-und-CSS-Modul-6457863.html
+
+
 ## HTML und CSS Paged Media 
 
 ### Example 1 
